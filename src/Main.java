@@ -59,14 +59,14 @@ public class Main {
     public static void task4() {
         System.out.println("Задание 4");
         int salary = 15000;
-        int total = 0;
+        float deposit = 0f;
         int i = 0;
 
-        while (total < 12000000) {
+        while (deposit < 12000000) {
             i = i + 1;
-            total = total + total * 7 / 100;
-            total = total + salary;
-            System.out.println("Месяц " + i + " сумма накоплений равна " + total);
+            deposit = deposit + deposit * 7 / 100;
+            deposit = deposit + salary;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + deposit);
 
         }
     }
@@ -74,15 +74,15 @@ public class Main {
     public static void task5() {
         System.out.println("Задание 5");
         int salary = 15000;
-        int total = 0;
+        float deposit = 0f;
         int i = 0;
 
-        while (total < 12000000) {
+        while (deposit < 12000000) {
             i = i + 1;
-            total = total + total * 7 / 100;
-            total = total + salary;
+            deposit = deposit + deposit * 7 / 100;
+            deposit = deposit + salary;
             if (i % 6 == 0) {
-                System.out.println("Месяц " + i + " Итого " + total);
+                System.out.println("Месяц " + i + " Итого " + deposit);
             }
 
         }
@@ -91,15 +91,15 @@ public class Main {
     public static void task6() {
         System.out.println("Задание 6");
         int salary = 15000;
-        int total = 0;
+        float deposit = 0f;
         int i = 0;
 
         while (i < 108) {// 9 years=108 months
             i = i + 1;
-            total = total + total * 7 / 100;
-            total = total + salary;
+            deposit = deposit + deposit * 7 / 100;
+            deposit = deposit + salary;
             if (i % 6 == 0) {
-                System.out.println("Месяц " + i + " сумма накоплений равна " + total);
+                System.out.println("Месяц " + i + " сумма накоплений равна " + deposit);
             }
         }
     }
